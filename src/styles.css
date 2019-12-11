@@ -8,7 +8,6 @@
   top: 0;
   z-index: 1;
   border-bottom: 3px solid #3693ff;
-  max-width: auto;
 }
 .nav-bar .text-primary {
   color: #3693ff;
@@ -34,6 +33,10 @@
   padding: 1.5rem;
   margin: 0 0.5rem;
   border-radius: 5px;
+}
+.nav-bar li aa:hover {
+  color: #3693ff;
+  transition: all 0.5s ease-in;
 }
 
 * {
