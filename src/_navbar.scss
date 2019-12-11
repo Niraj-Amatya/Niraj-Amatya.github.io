@@ -34,7 +34,7 @@ $secondary-color: #3693ff;
 
             border: 2px $secondary-color solid;
             border-radius: 50%;
-            
+        }   
               
         
             a {
@@ -54,17 +54,14 @@ $secondary-color: #3693ff;
                 border-radius: 5px;
 
                 // hover effect not working
-                li a:hover {
-                    color: red;
-                    transition: all 0.5s ease-out;
-                }
+                // li a:hover {
+                //     color: red;
+                //     transition: all 0.5s ease-out;
+                // }
                 
             }
     
                 
-        }
-    
-
     }
             
 
