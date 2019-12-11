@@ -26,7 +26,7 @@
   text-decoration: none;
   padding: 5px;
 }
-.nav-bar li a {
+.nav-bar h2 li a {
   text-decoration: none;
   color: #fff;
   font-size: 1.2rem;
@@ -34,9 +34,9 @@
   margin: 0 0.5rem;
   border-radius: 5px;
 }
-.nav-bar li aa:hover {
-  color: #3693ff;
-  transition: all 0.5s ease-in;
+.nav-bar h2 li a li a:hover {
+  color: red;
+  transition: all 0.5s ease-out;
 }
 
 * {
