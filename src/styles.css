@@ -1,14 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* Error: expected "{".
+ *   ,
+ * 2 | @import "about";
+ *   |                ^
+ *   '
+ *   main.scss 2:16  root stylesheet */
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.4;
-  color: #333;
-  overflow-x: hidden;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a   \2577 \a 2 \2502  @import "about";\a   \2502                 ^\a   \2575 \a   main.scss 2:16  root stylesheet';
 }
-
-/*# sourceMappingURL=styles.css.map */
