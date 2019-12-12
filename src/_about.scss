@@ -1,2 +1,51 @@
 // about styling
 
+#about {
+    padding: 5rem 0;
+
+    .container {
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    // h2 {
+    //     text-align: center;
+    //     font-size: 4rem;
+    //     margin-bottom: 3rem;
+    // }
+    h3 {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        font-weight: 535;
+    }
+
+    p.lead {
+        margin-bottom: 3rem;
+        }
+        
+    
+    .about-content {
+        display: flex;
+    }
+
+    .about-text,
+    .about-image {
+        flex: 1;
+    } 
+
+    .about-text {
+        text-align: justify;
+    }
+
+    .about-image img {
+        display: block;
+        margin-left: auto;
+        width: 60%;
+        border-radius: 50%;
+        margin-top: 60px;
+        border: 2px $secondary-color solid;
+        
+        
+    }
+}
+

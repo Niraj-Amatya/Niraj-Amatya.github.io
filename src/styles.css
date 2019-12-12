@@ -39,6 +39,40 @@
   transition: all 0.5s ease-out;
 }
 
+#about {
+  padding: 5rem 0;
+}
+#about .container {
+  max-width: 1100px;
+  margin: auto;
+}
+#about h3 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-weight: 535;
+}
+#about p.lead {
+  margin-bottom: 3rem;
+}
+#about .about-content {
+  display: flex;
+}
+#about .about-text,
+#about .about-image {
+  flex: 1;
+}
+#about .about-text {
+  text-align: justify;
+}
+#about .about-image img {
+  display: block;
+  margin-left: auto;
+  width: 60%;
+  border-radius: 50%;
+  margin-top: 60px;
+  border: 2px #3693ff solid;
+}
+
 * {
   margin: 0;
   padding: 0;
