@@ -46,10 +46,53 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.4;
   color: #333;
   overflow-x: hidden;
+}
+
+h1, h2 {
+  margin: 0;
+  font-weight: 400;
+}
+h1.lg-heading, h2.lg-heading {
+  font-size: 6rem;
+}
+h1.sm-heading, h2.sm-heading {
+  margin-bottom: 2rem;
+  padding: 0.2rem 1rem;
+}
+
+a {
+  color: #3693ff;
+}
+
+.text-primary {
+  color: #3693ff;
+}
+
+main {
+  direction: flex;
+  justify-content: center;
+  padding: 4rem;
+  height: 100%;
+}
+main .icons {
+  margin-top: 1rem;
+}
+main .icons a {
+  padding: 0.4rem;
+}
+main .icons a:hover {
+  color: #333;
+  transition: all 0.5s ease-out;
+}
+main#home {
+  overflow: hidden;
+}
+main#home h1 {
+  margin-top: 20vh;
 }
 
 /*# sourceMappingURL=styles.css.map */

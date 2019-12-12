@@ -1,5 +1,13 @@
-@import "navbar";
+// $primary-color: #fff;
+// $secondary-color: #3693ff;
 
+@import 'variables';
+@import 'navbar';
+
+@mixin text-primary {
+    color: $secondary-color;
+    
+}
 
 // General style
 
@@ -9,13 +17,82 @@
     box-sizing: border-box;
 }
 
+@mixin ease-out {
+    transition: all 0.5s ease-out;  
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.4;
     color: #333;
     overflow-x: hidden;
 
 }
+
+// landing page
+// heading
+h1, h2 {
+    margin: 0;
+    font-weight: 400;
+    
+
+    &.lg-heading {
+        font-size: 6rem;
+    }
+
+    &.sm-heading {
+        margin-bottom: 2rem;
+        padding: 0.2rem 1rem;
+    }
+
+}
+
+// all the anchor links
+a {
+    color: $secondary-color
+}
+        
+    
+    
+// h1 in span
+.text-primary {
+    @include text-primary();
+}
+
+main {
+    direction: flex;
+    justify-content: center;
+    padding: 4rem;
+    height: 100%;
+
+    // icons
+    .icons {
+        margin-top: 1rem;
+
+        a{
+            padding: 0.4rem;
+
+            &:hover {
+                color: $nav-color;
+                @include ease-out();
+                
+
+            }
+        }
+    }
+
+    &#home {
+        // display: flex;
+        // justify-content: center;
+        overflow: hidden;
+        h1 {
+            margin-top: 20vh;
+        }
+        
+    }
+}
+
+
 
 
 
