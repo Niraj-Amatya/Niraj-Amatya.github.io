@@ -73,6 +73,10 @@
   border: 2px #3693ff solid;
 }
 
+#blog {
+  background: #f4f4f4;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -84,6 +88,7 @@ body {
   line-height: 1.4;
   color: #333;
   overflow-x: hidden;
+  background: #f4f4f4;
 }
 
 h1, h2 {
