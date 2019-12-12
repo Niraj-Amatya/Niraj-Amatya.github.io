@@ -1,3 +1,44 @@
 #blog {
-    background: $background;
+    
+    .text-primary {
+        @include text-primary;
+    }
+
+    .container {
+        @include container;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 3rem;
+        // color: 
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        background: rgba(54, 147, 255, 0.7);
+        display: flex;
+        padding: 2rem;
+        align-items: center;
+        border-radius: 15px;
+    }
+
+    .box:first-child, .box:nth-child(2), .box:nth-child(3), .box:nth-child(4) {
+        margin-bottom: 3rem;
+    }
+
+    .box img {
+        border-radius: 50%;
+        margin-right: 2rem;
+    
+    }
+
+    p {
+        color: #fff;
+    }
 }
