@@ -19,23 +19,24 @@
 
     .boxes {
         display: flex;
-        flex-direction: column;    
+        flex-direction: column; 
+        flex-wrap: wrap;   
     }
 
     
 
     .box {
-        background: rgba(54, 147, 255, 0.7);
+        background: rgba($secondary-color, 0.5);
         display: flex;
         padding: 2rem;
         align-items: center;
         border-radius: 15px; 
 
-        
-        
+
+       
+
+
     }
-    
-    
     
 
     .box:first-child, .box:nth-child(2), .box:nth-child(3), .box:nth-child(4) {
@@ -51,8 +52,11 @@
 
     p {
         color: #fff;
+        justify-content: center;
     }
 
     
 }
+
+
 

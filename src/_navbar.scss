@@ -6,6 +6,7 @@
 
     .nav-bar {
         display: flex;
+        flex-wrap: wrap;
         // flex-direction: row;
         justify-content: space-between;
         color: $primary-color;
@@ -25,6 +26,7 @@
         // navbar menu flex
         ul {
             display: flex;
+            flex-direction: row;
             align-items: center;
             list-style: none;
     

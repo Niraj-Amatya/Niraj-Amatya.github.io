@@ -1,50 +1,61 @@
 // about styling
 
-#about {
-    padding: 5rem 0;
+body {
+    background-color: red;
+}
 
-    .container {
-        @include container;
-    }
 
-    // h2 {
-    //     text-align: center;
-    //     font-size: 4rem;
-    //     margin-bottom: 3rem;
-    // }
-    h3 {
-        font-size: 4rem;
-        margin-bottom: 1rem;
-        font-weight: 535;
-    }
 
-    p.lead {
-        margin-bottom: 3rem;
-        }
-        
+
+// for desktop
+@media only screen and (min-width: 900px) {
+    #about {
+        padding: 5rem 0;
     
-    .about-content {
-        display: flex;
-    }
-
-    .about-text,
-    .about-image {
-        flex: 1;
-    } 
-
-    .about-text {
-        text-align: justify;
-    }
-
-    .about-image img {
-        display: block;
-        margin-left: auto;
-        width: 60%;
-        border-radius: 50%;
-        margin-top: 60px;
-        border: 2px $secondary-color solid;
+        .container {
+            @include container;
+        }
+    
+        h2 {
+            text-align: center;
+            font-size: 4rem;
+            margin-bottom: 3rem;
+        }
+        h3 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 535;
+        }
+    
+        p.lead {
+            margin-bottom: 3rem;
+            }
+            
         
-        
+        .about-content {
+            display: flex;
+        }
+    
+        .about-text,
+        .about-image {
+            flex: 1;
+        } 
+    
+        .about-text {
+            text-align: justify;
+        }
+    
+        .about-image img {
+            display: block;
+            margin-left: auto;
+            width: 60%;
+            border-radius: 50%;
+            margin-top: 60px;
+            border: 2px $secondary-color solid;
+            
+            
+        }
     }
 }
+
 

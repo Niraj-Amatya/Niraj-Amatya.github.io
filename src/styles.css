@@ -1,5 +1,6 @@
 .nav-bar {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   color: #fff;
   background: #333;
@@ -14,6 +15,7 @@
 }
 .nav-bar ul {
   display: flex;
+  flex-direction: row;
   align-items: center;
   list-style: none;
 }
@@ -39,40 +41,50 @@
   transition: all 0.5s ease-out;
 }
 
-#about {
-  padding: 5rem 0;
-}
-#about .container {
-  max-width: 1100px;
-  margin: auto;
-}
-#about h3 {
-  font-size: 4rem;
-  margin-bottom: 1rem;
-  font-weight: 535;
-}
-#about p.lead {
-  margin-bottom: 3rem;
-}
-#about .about-content {
-  display: flex;
-}
-#about .about-text,
-#about .about-image {
-  flex: 1;
-}
-#about .about-text {
-  text-align: justify;
-}
-#about .about-image img {
-  display: block;
-  margin-left: auto;
-  width: 60%;
-  border-radius: 50%;
-  margin-top: 60px;
-  border: 2px #3693ff solid;
+body {
+  background-color: red;
 }
 
+@media only screen and (min-width: 900px) {
+  #about {
+    padding: 5rem 0;
+  }
+  #about .container {
+    max-width: 1100px;
+    margin: auto;
+  }
+  #about h2 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+  }
+  #about h3 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 535;
+  }
+  #about p.lead {
+    margin-bottom: 3rem;
+  }
+  #about .about-content {
+    display: flex;
+  }
+  #about .about-text,
+#about .about-image {
+    flex: 1;
+  }
+  #about .about-text {
+    text-align: justify;
+  }
+  #about .about-image img {
+    display: block;
+    margin-left: auto;
+    width: 60%;
+    border-radius: 50%;
+    margin-top: 60px;
+    border: 2px #3693ff solid;
+  }
+}
 #blog .text-primary {
   color: #3693ff;
 }
@@ -88,9 +100,10 @@
 #blog .boxes {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 #blog .box {
-  background: rgba(54, 147, 255, 0.7);
+  background: rgba(54, 147, 255, 0.5);
   display: flex;
   padding: 2rem;
   align-items: center;
@@ -105,8 +118,50 @@
 }
 #blog p {
   color: #fff;
+  justify-content: center;
 }
 
+#projects {
+  padding: 1rem 0;
+}
+#projects .text-primary {
+  color: #3693ff;
+}
+#projects .container {
+  max-width: 1100px;
+  margin: auto;
+}
+#projects h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 7rem;
+}
+#projects .boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#projects h3 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #3693ff;
+}
+#projects .box {
+  background: #fff;
+  flex: 1;
+  padding: 3rem;
+  margin: 2rem 3rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #d1d1d1;
+  font-size: 1.3rem;
+}
+#projects .box a {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
 * {
   margin: 0;
   padding: 0;
@@ -121,46 +176,45 @@ body {
   background: #f4f4f4;
 }
 
-h1, h2 {
-  margin: 0;
-  font-weight: 400;
-}
-h1.lg-heading, h2.lg-heading {
-  font-size: 6rem;
-}
-h1.sm-heading, h2.sm-heading {
-  margin-bottom: 2rem;
-  padding: 0.2rem 1rem;
-}
-
-a {
-  color: #3693ff;
-}
-
 .text-primary {
   color: #3693ff;
 }
 
-main {
-  direction: flex;
-  justify-content: center;
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: left;
   padding: 4rem;
   height: 100%;
+  overflow: hidden;
 }
-main .icons {
+.heading h1, .heading h2 {
+  margin: 0;
+  font-weight: 400;
+}
+.heading h1.lg-heading, .heading h2.lg-heading {
+  font-size: 6rem;
+}
+.heading h1.sm-heading, .heading h2.sm-heading {
+  margin-bottom: 2rem;
+  padding: 0.2rem 0.5rem;
+  justify-content: right;
+  background: rgba(54, 147, 255, 0.1);
+  width: 90%;
+}
+.heading .icons {
   margin-top: 1rem;
 }
-main .icons a {
+.heading .icons a {
   padding: 0.4rem;
+  color: #3693ff;
 }
-main .icons a:hover {
+.heading .icons a:hover {
   color: #333;
   transition: all 0.5s ease-out;
 }
-main#home {
-  overflow: hidden;
-}
-main#home h1 {
+.heading h1 {
   margin-top: 20vh;
 }
 
