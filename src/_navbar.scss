@@ -16,6 +16,16 @@
         top: 0;
         z-index: 1;
         border-bottom: 3px solid $secondary-color;
+
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            // justify-content: space-between;
+            align-items: center;
+        }
+        
         
     
         // branding-name-styling
@@ -32,11 +42,14 @@
     
         }
 
-        h2 {
-
+        #logo {
+            // display: inline-block;
             border: 2px $secondary-color solid;
             border-radius: 50%;
-            
+            width: 40px;
+            height: 40px;
+            padding-top: 10px;
+            padding: 5px;
         }   
               
         
@@ -53,7 +66,7 @@
                 color: $primary-color;
                 font-size: 1rem;
                 padding: 0.5rem;
-                margin: 0 1.2rem;
+                margin: 0px auto;
                 border-radius: 5px;
 
                 // hover effect
@@ -69,9 +82,26 @@
             
 
         
-           
+ // for desktop
+@media only screen and (min-width: 900px) {          
     
-        
+    .flex-container {
+        flex-direction: row !important;
+        justify-content: space-between;
+        // width: 100%;
+    }
     
+    .navbar-items {
+        flex-grow: 1;
+    }
+
+    .nav-bar div {
+        width: 100%;
+    }
+
+    #reallybig {
+        flex-grow: 5;
+    }
+}
 
  

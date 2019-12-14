@@ -10,6 +10,12 @@
   z-index: 1;
   border-bottom: 3px solid #3693ff;
 }
+.nav-bar .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
 .nav-bar .text-primary {
   color: #3693ff;
 }
@@ -19,9 +25,13 @@
   align-items: center;
   list-style: none;
 }
-.nav-bar h2 {
+.nav-bar #logo {
   border: 2px #3693ff solid;
   border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding-top: 10px;
+  padding: 5px;
 }
 .nav-bar a {
   color: #fff;
@@ -33,7 +43,7 @@
   color: #fff;
   font-size: 1rem;
   padding: 0.5rem;
-  margin: 0 1.2rem;
+  margin: 0px auto;
   border-radius: 5px;
 }
 .nav-bar li a:hover {
@@ -41,6 +51,24 @@
   transition: all 0.5s ease-out;
 }
 
+@media only screen and (min-width: 900px) {
+  .flex-container {
+    flex-direction: row !important;
+    justify-content: space-between;
+  }
+
+  .navbar-items {
+    flex-grow: 1;
+  }
+
+  .nav-bar div {
+    width: 100%;
+  }
+
+  #reallybig {
+    flex-grow: 5;
+  }
+}
 #about {
   padding: 1rem 0;
 }
@@ -94,6 +122,13 @@
     text-align: justify;
   }
 }
+#blog .boxes {
+  margin: 5%;
+  text-align: center;
+}
+#blog .box {
+  background: rgba(54, 147, 255, 0.5);
+}
 #blog .text-primary {
   color: #3693ff;
 }
@@ -105,18 +140,6 @@
   text-align: center;
   font-size: 4rem;
   margin-bottom: 3rem;
-}
-#blog .boxes {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-#blog .box {
-  background: rgba(54, 147, 255, 0.5);
-  display: flex;
-  padding: 2rem;
-  align-items: center;
-  border-radius: 15px;
 }
 #blog .box:first-child, #blog .box:nth-child(2), #blog .box:nth-child(3), #blog .box:nth-child(4) {
   margin-bottom: 3rem;
@@ -130,6 +153,20 @@
   justify-content: center;
 }
 
+@media only screen and (min-width: 900px) {
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    border-radius: 15px;
+  }
+}
 #projects {
   padding: 1rem 0;
 }
@@ -142,10 +179,10 @@
 }
 #projects h2 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 7rem;
 }
-#projects .boxes {
+#projects .project-boxes {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -157,7 +194,7 @@
   font-size: 1.5rem;
   color: #3693ff;
 }
-#projects .box {
+#projects .project-box {
   background: #fff;
   flex: 1;
   padding: 3rem;
@@ -166,11 +203,12 @@
   box-shadow: 2px 2px 5px #d1d1d1;
   font-size: 1.3rem;
 }
-#projects .box a {
+#projects .project-box a {
   display: flex;
   align-items: flex-end;
   justify-content: center;
 }
+
 * {
   margin: 0;
   padding: 0;

@@ -1,5 +1,18 @@
 #blog {
     
+// width for whole box
+.boxes {
+    margin: 5%;
+    text-align: center;
+
+}
+
+// background color
+
+    .box {
+        background: rgba($secondary-color, 0.5);
+    }
+
     .text-primary {
         @include text-primary;
     }
@@ -17,26 +30,6 @@
 
       
 
-    .boxes {
-        display: flex;
-        flex-direction: column; 
-        flex-wrap: wrap;   
-    }
-
-    
-
-    .box {
-        background: rgba($secondary-color, 0.5);
-        display: flex;
-        padding: 2rem;
-        align-items: center;
-        border-radius: 15px; 
-
-
-       
-
-
-    }
     
 
     .box:first-child, .box:nth-child(2), .box:nth-child(3), .box:nth-child(4) {
@@ -58,5 +51,29 @@
     
 }
 
+// desktop
+
+@media only screen and (min-width: 900px) { 
+    
+    .boxes {
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: wrap;   
+    }
+
+    
+
+    .box {
+       
+        display: flex;
+        padding: 2rem;
+        align-items: center;
+        border-radius: 15px; 
 
 
+       
+    }
+      
+
+
+}
