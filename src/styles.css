@@ -80,7 +80,7 @@
   text-align: center;
 }
 #about .about-image img {
-  width: 50%;
+  width: 30%;
   border-radius: 50%;
   margin-top: 30px;
   border: 2px #3693ff solid;
@@ -94,39 +94,29 @@
 #about p.lead {
   margin-bottom: 3rem;
 }
-#about .about-image img {
-  margin-left: auto;
-  width: 60%;
-  border-radius: 50%;
-  margin-top: 60px;
-  border: 2px #3693ff solid;
-  color: red;
-}
 
 @media only screen and (min-width: 1001px) {
-  .about-content {
+  #about .about-content {
     display: flex;
   }
-
-  .about-text,
-.about-image {
+  #about .about-text,
+#about .about-image {
     flex: 1;
     margin-top: 3rem;
   }
-
-  .about-text {
+  #about .about-image img {
+    width: 50%;
+  }
+  #about .about-text {
     text-align: justify;
   }
-
-  .about-text {
+  #about .about-text {
     order: 1;
   }
-
-  .text-paragraph p {
+  #about .text-paragraph p {
     margin-top: 3rem;
   }
-
-  .about-image {
+  #about .about-image {
     order: 2;
   }
 }

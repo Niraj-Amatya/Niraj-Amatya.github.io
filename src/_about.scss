@@ -32,7 +32,7 @@
         // justify-content: center;
         
         // margin-left: auto;
-        width: 50%;
+        width: 30%;
         border-radius: 50%;
         margin-top: 30px;
         border: 2px $secondary-color solid;
@@ -54,17 +54,17 @@
         
     
 
-    .about-image img {
-        // display: block;
-        margin-left: auto;
-        width: 60%;
-        border-radius: 50%;
-        margin-top: 60px;
-        border: 2px $secondary-color solid;
-        color: red;
+    // .about-image img {
+    //     // display: block;
+    //     margin-left: auto;
+    //     width: 60%;
+    //     border-radius: 50%;
+    //     margin-top: 60px;
+    //     border: 2px $secondary-color solid;
+    //     color: red;
         
         
-    }
+    // }
 }    
 
 
@@ -76,36 +76,45 @@
 
 // for desktop
 @media only screen and (min-width: 1001px) {
+    #about{
 
-    .about-content {
-        display: flex;
+        .about-content {
+            display: flex;
+        }
+    
+        .about-text,
+        .about-image {
+            flex: 1;
+            margin-top: 3rem;
+        } 
+    
+    
+        .about-image img {
+            
+            width: 50%;
+        }
+    
+        .about-text {
+            text-align: justify;
+    
+        }
+    
+        .about-text{
+            order: 1;
+    
+        }
+    
+         .text-paragraph p {
+             margin-top: 3rem;
+    
+         }
+    
+        .about-image {
+            order: 2;
+        }
     }
-
-    .about-text,
-    .about-image {
-        flex: 1;
-        margin-top: 3rem;
-    } 
-
-
-    .about-text {
-        text-align: justify;
-
+    
+    
+    
     }
-
-    .about-text{
-        order: 1;
-
-    }
-
-     .text-paragraph p {
-         margin-top: 3rem;
-
-     }
-
-    .about-image {
-        order: 2;
-    }
-}
-
-
+    
