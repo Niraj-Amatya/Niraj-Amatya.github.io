@@ -8,7 +8,7 @@
 
 
 #about {
-    padding: 1rem 0;
+    padding: 0.3rem 0.2rem;
     
 
 
@@ -34,9 +34,9 @@
         // margin-left: auto;
         width: 50%;
         border-radius: 50%;
-        margin-top: 60px;
+        margin-top: 30px;
         border: 2px $secondary-color solid;
-        color: red;
+        
         
         
     }
@@ -45,15 +45,13 @@
         font-size: 3rem;
         margin-bottom: 1rem;
         font-weight: 535;
+        text-align: center;
     }
 
     p.lead {
         margin-bottom: 3rem;
         }
         
-    
-    
-
     
 
     .about-image img {
@@ -77,7 +75,7 @@
 // styles for mobile end here
 
 // for desktop
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1001px) {
 
     .about-content {
         display: flex;
@@ -86,13 +84,27 @@
     .about-text,
     .about-image {
         flex: 1;
+        margin-top: 3rem;
     } 
 
 
     .about-text {
         text-align: justify;
 
-        
+    }
+
+    .about-text{
+        order: 1;
+
+    }
+
+     .text-paragraph p {
+         margin-top: 3rem;
+
+     }
+
+    .about-image {
+        order: 2;
     }
 }
 
