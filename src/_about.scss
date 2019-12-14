@@ -1,60 +1,95 @@
 // about styling
 
-body {
-    background-color: red;
-}
 
 
 
+// styles for mobile start here
+
+
+
+#about {
+    padding: 1rem 0;
+    
+
+    .about {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .container {
+        @include container;
+    }
+
+    .about-image{
+        text-align: center;
+        
+    }
+
+    .about-image img {
+        // display: flex;
+        // justify-content: center;
+        
+        // margin-left: auto;
+        width: 50%;
+        border-radius: 50%;
+        margin-top: 60px;
+        border: 2px $secondary-color solid;
+        color: red;
+        
+        
+    }
+   
+    h3 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        font-weight: 535;
+    }
+
+    p.lead {
+        margin-bottom: 3rem;
+        }
+        
+    
+    
+
+    
+
+    .about-image img {
+        // display: block;
+        margin-left: auto;
+        width: 60%;
+        border-radius: 50%;
+        margin-top: 60px;
+        border: 2px $secondary-color solid;
+        color: red;
+        
+        
+    }
+}    
+
+
+
+
+
+
+// styles for mobile end here
 
 // for desktop
 @media only screen and (min-width: 900px) {
-    #about {
-        padding: 5rem 0;
-    
-        .container {
-            @include container;
-        }
-    
-        h2 {
-            text-align: center;
-            font-size: 4rem;
-            margin-bottom: 3rem;
-        }
-        h3 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            font-weight: 535;
-        }
-    
-        p.lead {
-            margin-bottom: 3rem;
-            }
-            
-        
-        .about-content {
-            display: flex;
-        }
-    
-        .about-text,
-        .about-image {
-            flex: 1;
-        } 
-    
-        .about-text {
-            text-align: justify;
-        }
-    
-        .about-image img {
-            display: block;
-            margin-left: auto;
-            width: 60%;
-            border-radius: 50%;
-            margin-top: 60px;
-            border: 2px $secondary-color solid;
-            
-            
-        }
+
+    .about-content {
+        display: flex;
+    }
+
+    .about-text,
+    .about-image {
+        flex: 1;
+    } 
+
+
+    .about-text {
+        text-align: justify;
     }
 }
 
