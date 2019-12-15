@@ -374,6 +374,9 @@ body {
 }
 
 @media only screen and (min-width: 657px) {
+  .heading {
+    margin-top: 20vh;
+  }
   .heading .mobile-image {
     display: none;
   }
@@ -381,9 +384,8 @@ body {
     margin: 5px 2px;
     font-weight: 500;
   }
-  .heading h1 {
-    margin-top: 25vh;
-    font-size: 7rem;
+  .heading h1.lg-heading {
+    font-size: 8rem;
     padding-bottom: 5px;
   }
   .heading h2.sm-heading {

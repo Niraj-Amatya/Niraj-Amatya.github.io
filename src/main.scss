@@ -142,6 +142,7 @@ body {
 @media only screen and (min-width: 657px){
     
     .heading {
+        margin-top: 20vh;
 
         
         .mobile-image {
@@ -155,10 +156,10 @@ body {
             font-weight: 500;
             
         }
-         h1 {
-            margin-top: 25vh;
+         h1.lg-heading {
+            // margin-top: 25vh;
             // lg-heading {
-                font-size: 7rem;
+                font-size: 8rem;
                 padding-bottom: 5px;
             //     // line-height: 1.2;
     
@@ -175,12 +176,7 @@ body {
         }
        
             
-        
-        
-
-           
-
-
+    
 
     }   
 }
