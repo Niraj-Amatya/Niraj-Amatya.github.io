@@ -329,7 +329,7 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: left;
-  padding: 5rem;
+  padding: 0 5rem;
   height: 100%;
   overflow: hidden;
 }
@@ -340,7 +340,7 @@ body {
   justify-content: center;
   width: 60%;
   border-radius: 50%;
-  margin-top: 30px;
+  margin-top: 20px;
   border: 2px #3693ff solid;
 }
 .heading h1, .heading h2 {
