@@ -86,7 +86,7 @@
         }
     
         h1 {
-            font-size: 5rem;
+            font-size: 4rem;
             font-weight: 400;
         }
 
@@ -112,15 +112,19 @@
         .box {
             font-size: 2rem;
             border: 4px solid $secondary-color;
-            padding: 1.5rem 2.5rem;
+            padding: 1.5rem 5rem;
             margin: 0 25%;
-            margin-bottom: 3rem;
+            margin-bottom: 2rem;
             // text-align: center;
         
             // padding: 0 20px;
             
         }
-
+        .icons {
+            a {
+                padding: 0.5rem;
+            }
+        }
 
     }
 
