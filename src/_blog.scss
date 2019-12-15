@@ -1,79 +1,142 @@
-#blog {
+// #blog {
     
-// width for whole box
-.boxes {
-    margin: 5%;
-    text-align: center;
+// // width for whole box
+// .boxes {
+//     margin: 5%;
+//     text-align: center;
 
-}
+// }
 
-// background color
+// // background color
 
-    .box {
-        background: rgba($secondary-color, 0.5);
-    }
+//     .box {
+//         background: #fff;
+//     }
 
-    .text-primary {
-        @include text-primary;
-    }
+//     .text-primary {
+//         @include text-primary;
+//     }
 
-    .container {
-        @include container;
-    }
+    
+
+//     h2 {
+//         text-align: center;
+//         font-size: 4rem;
+//         margin-bottom: 3rem;
+//         // color: 
+//     }
+
+      
+
+    
+
+//     .box:first-child, .box:nth-child(2), .box:nth-child(3), .box:nth-child(4) {
+//         margin-bottom: 3rem;
+//     }
+
+//     .box img {
+//         border-radius: 50%;
+//         margin-right: 2rem;
+    
+//     }
+    
+
+//     p {
+//         color: $nav-color;
+//         justify-content: center;
+//     }
+
+    
+// }
+
+// // desktop
+
+// @media only screen and (min-width: 900px) { 
+    
+//     .boxes {
+//         display: flex;
+//         flex-direction: column; 
+//         flex-wrap: wrap;   
+//     }
+
+    
+
+//     .box {
+       
+//         display: flex;
+//         padding: 2rem;
+//         align-items: center;
+//         border-radius: 15px; 
+
+
+       
+//     }
+      
+
+
+// }
+
+
+
+#blog {
+    // .container {
+    //     max-width: 600px;
+    //     margin: auto;
+    // }
 
     h2 {
+
+        font-size: 2rem;
         text-align: center;
-        font-size: 4rem;
-        margin-bottom: 3rem;
-        // color: 
+        margin-top: 1rem;
+        font-weight: 550;
+        
+
     }
 
-      
-
-    
-
-    .box:first-child, .box:nth-child(2), .box:nth-child(3), .box:nth-child(4) {
-        margin-bottom: 3rem;
-    }
-
-    .box img {
-        border-radius: 50%;
-        margin-right: 2rem;
-    
-    }
-    
-
-    p {
-        color: #fff;
-        justify-content: center;
-    }
-
-    
-}
-
-// desktop
-
-@media only screen and (min-width: 900px) { 
-    
     .boxes {
         display: flex;
-        flex-direction: column; 
-        flex-wrap: wrap;   
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 2rem;
+        
+        
     }
 
-    
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin-bottom: 2rem;
+        // border: 1px solid $nav-color ;
+        width: 100%
 
-    .box {
-       
-        display: flex;
-        padding: 2rem;
-        align-items: center;
-        border-radius: 15px; 
-
-
-       
+        
     }
-      
 
+    img {
+        padding: 0 16px;
+    }
 
+    .box  {
+        padding: 0 16px;
+        
+        
+
+        h2{
+            color: $secondary-color;
+            text-align: left;
+            font-size: 1.5rem;
+        }
+        
+
+        p {
+            font-size: 15px;
+            margin-top: 5px
+        }
+        
+        .p-color {
+            color: grey;
+            text-align: right;
+            font-size: 12px;
+        }
+    }
 }
