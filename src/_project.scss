@@ -41,8 +41,13 @@
     .project-box {
         background: $primary-color;
         flex: 1;
-        padding: 3rem;
-        margin: 2rem 3rem;
+        // padding: 3rem;
+
+        // needs to be fixed in margin for mobile and desktop view
+        // putiing margin zero works for allt the mobile view but
+        // it affects desktop view for some reason and does not let 
+        // margin between the box....bugsss
+        margin-bottom: 2rem;
         border-radius: 10px;
         box-shadow: 2px 2px 5px #d1d1d1;
         font-size: 1.3rem;
@@ -61,13 +66,26 @@
 }
 
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 768px) {
 
-    #projects h2 {
-        margin-bottom: 3rem;
-    }
+    #projects.project-box  {
+
+         
+            background: $primary-color;
+            flex: 1;
+            // padding: 3rem;
+            margin: 2rem 2rem;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px #d1d1d1;
+            font-size: 1.3rem;
+
+
+
+        // margin-bottom: 3rem;
+        
 
     }
+} 
 
 
 

@@ -76,8 +76,6 @@
 }
 #about {
   padding: 0.3rem 0.2rem;
-}
-#about .about {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -205,8 +203,7 @@
 #projects .project-box {
   background: #fff;
   flex: 1;
-  padding: 3rem;
-  margin: 2rem 3rem;
+  margin-bottom: 2rem;
   border-radius: 10px;
   box-shadow: 2px 2px 5px #d1d1d1;
   font-size: 1.3rem;
@@ -217,11 +214,47 @@
   justify-content: center;
 }
 
-@media only screen and (min-width: 900px) {
-  #projects h2 {
-    margin-bottom: 3rem;
+@media only screen and (min-width: 768px) {
+  #projects.project-box {
+    background: #fff;
+    flex: 1;
+    margin: 2rem 2rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #d1d1d1;
+    font-size: 1.3rem;
   }
 }
+#contact {
+  padding-top: 4vh;
+}
+#contact h1 {
+  color: #3693ff;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#contact h2 {
+  color: #333;
+  font-size: 20px;
+  background: rgba(54, 147, 255, 0.2);
+  width: 100%;
+  text-align: center;
+}
+#contact .contact-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+#contact .box {
+  border: 4px solid #333;
+  padding: 4px;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
