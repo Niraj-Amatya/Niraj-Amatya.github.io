@@ -375,7 +375,7 @@ body {
 
 @media only screen and (min-width: 657px) {
   .heading {
-    margin-top: 20vh;
+    margin-top: 24vh;
   }
   .heading .mobile-image {
     display: none;
