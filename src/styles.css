@@ -76,6 +76,7 @@
 }
 #about {
   padding: 0.3rem 0.2rem;
+  padding-bottom: 4rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -88,32 +89,73 @@
   text-align: center;
 }
 #about .about-image img {
-  width: 30%;
-  border-radius: 50%;
+  width: 40%;
+  border-radius: 5%;
   margin-top: 30px;
-  border: 2px #3693ff solid;
+  box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.2);
 }
-#about h3 {
+#about h2 {
   font-size: 3rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: 535;
   text-align: center;
 }
 #about p.lead {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
+}
+#about h1 {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: 20px;
+}
+#about p {
+  margin-bottom: 4px;
+}
+#about .skills-container {
+  width: 100%;
+  background-color: #ddd;
+}
+#about .skills {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+#about .html {
+  width: 90%;
+  background-color: #4CAF50;
+}
+#about .css {
+  width: 30%;
+  background-color: #2196F3;
+}
+#about .ruby {
+  width: 65%;
+  background-color: #f44336;
+}
+#about .js {
+  width: 5%;
+  background-color: #808080;
 }
 
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 769px) {
   #about .about-content {
     display: flex;
   }
   #about .about-text,
 #about .about-image {
     flex: 1;
-    margin-top: 3rem;
   }
   #about .about-image img {
     width: 50%;
+    margin-top: 18vh;
+    margin-left: 10rem;
+  }
+  #about h2 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    font-weight: 400;
   }
   #about .about-text {
     text-align: justify;
@@ -132,7 +174,7 @@
   font-size: 2rem;
   text-align: center;
   margin-top: 1rem;
-  font-weight: 550;
+  font-weight: 535;
 }
 #blog .boxes {
   display: flex;
