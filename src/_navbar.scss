@@ -1,9 +1,8 @@
 // $primary-color: #fff;
 // $secondary-color: #3693ff;
 
+
 // navbar 
-
-
     .nav-bar {
         display: flex;
         flex-wrap: wrap;
@@ -11,58 +10,43 @@
         justify-content: space-between;
         color: $primary-color;
         background: #333;
-        padding: 0.5rem 0;
+        padding: 1rem 0rem;
         position: sticky;
         top: 0;
         z-index: 1;
         border-bottom: 3px solid $secondary-color;
         
 
+        // logo round border
+        h2 {
+           margin-left: 3px;
+            a {
+                border: 2px solid $secondary-color;
+                border-radius: 50%;
+                // color for logo "A"
+                color: $primary-color;
+                text-decoration: none;
+                padding: 5px;
 
-        .flex-container {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            // justify-content: space-between;
-            align-items: center;
+                 // color for logo "N"
+                .text-primary {
+                    color: $secondary-color;  
+                }
+                
+            }
+
         }
+
         
-        
-    
-        // branding-name-styling
-        .text-primary {
-            color: $secondary-color;
-        }
-        
-        // navbar menu flex
+         
+        // navbar menu 
         ul {
             display: flex;
             flex-direction: row;
             align-items: center;
             list-style: none;
-           
-    
-        }
 
-        #logo {
-            // display: inline-block;
-            border: 2px $secondary-color solid;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            padding-top: 10px;
-            padding: 5px;
-        }   
-              
-        
-            a {
-                color: $primary-color;
-                text-decoration: none;
-                padding: 5px;
-                
-            }
-
-            // menu styling
+            // navbar ul li
             li a {
                 text-decoration: none;
                 color: $primary-color;
@@ -78,42 +62,20 @@
                 }
                 
             }
-    
+        }
+
+
                 
     }
             
 
         
  // for desktop
-@media only screen and (min-width: 900px) {          
+@media only screen and (min-width: 768px) {          
     
     .nav-bar {
-
-        display: flex;
-        flex-wrap: wrap;
-        // flex-direction: row;
-        justify-content: space-between;
-        color: $primary-color;
-        background: #333;
-        padding: 0.5rem 5rem;
-        position: sticky;
-        top: 0;
-        z-index: 1;
-        border-bottom: 3px solid $secondary-color;
+        padding: 1rem 4rem;
         
-
-
-        .navbar-items {
-            flex-grow: 1;
-        }
-    
-        .nav-bar div {
-            width: 100%;
-        }
-    
-        #reallybig {
-            flex-grow: 5;
-        }
     }
     
     }
