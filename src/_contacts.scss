@@ -28,10 +28,16 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+        
+
         
     }
 
+    
+
     .box {
+        
         border: 4px solid $secondary-color;
         margin: 0 50px;
         margin-bottom: 2rem; 
@@ -40,6 +46,7 @@
         text-align: center;
         @include ease-out;
 
+       
           &:hover {
 
             border: 2px solid $nav-color;
@@ -47,8 +54,12 @@
             background: $secondary-color;
             color: white;
 
+            
+
               
           }
+
+          
           .icons {
             // margin-top: 1rem;
             // justify-content: left;

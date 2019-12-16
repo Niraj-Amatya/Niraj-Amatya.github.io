@@ -347,6 +347,9 @@
   background: #3693ff;
   color: white;
 }
+#contact .box:hover a {
+  text-decoration: none;
+}
 #contact .box .icons a {
   color: #333;
 }
