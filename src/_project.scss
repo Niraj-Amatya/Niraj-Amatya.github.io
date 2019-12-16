@@ -1,92 +1,237 @@
 
-#projects {
-    padding: 1rem 0;
+// #projects {
+//     padding: 1rem 0;
 
-    .text-primary {
-        @include text-primary;
-    }
+//     .text-primary {
+//         @include text-primary;
+//     }
     
-    .container {
-        @include container;
+//     .container {
+//         @include container;
         
-    }
+//     }
 
     
     
-    h2 {
-        text-align: center;
-        font-size: 2rem;
-        margin-bottom: 3rem;
-        // padding: 2rem 0;
+//     h2 {
+//         text-align: center;
+//         font-size: 2rem;
+//         margin-bottom: 3rem;
+//         // padding: 2rem 0;
        
-    }
+//     }
 
-    .project-boxes {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        // flex-direction: row;
-        // justify-content: space-between;
+//     .project-boxes {
+//         display: flex;
+//         flex-direction: row;
+//         flex-wrap: wrap;
+//         // flex-direction: row;
+//         // justify-content: space-between;
 
-    }
+//     }
     
-      h3 {
+//       h3 {
+//         text-align: center;
+//         margin-top: 1rem;
+//         margin-bottom: 1rem;
+//         font-size: 1.5rem;
+//         color: $secondary-color;
+//     }
+
+//     .project-box {
+//         background: $primary-color;
+//         flex: 1;
+//         // padding: 3rem;
+
+//         // needs to be fixed in margin for mobile and desktop view
+//         // putiing margin zero works for allt the mobile view but
+//         // it affects desktop view for some reason and does not let 
+//         // margin between the box....bugsss
+//         margin-bottom: 2rem;
+//         border-radius: 10px;
+//         box-shadow: 2px 2px 5px #d1d1d1;
+//         font-size: 1.3rem;
+        
+
+//         a {
+//             display: flex;
+//             align-items: flex-end;
+//             justify-content: center;
+//         }
+        
+//     }
+
+    
+    
+// }
+
+
+// @media only screen and (min-width: 768px) {
+
+//     #projects.project-box  {
+
+         
+//             background: $primary-color;
+//             flex: 1;
+//             // padding: 3rem;
+//             margin: 2rem 2rem;
+//             border-radius: 10px;
+//             box-shadow: 2px 2px 5px #d1d1d1;
+//             font-size: 1.3rem;
+
+
+
+//         // margin-bottom: 3rem;
+        
+
+//     }
+// } 
+
+#project {
+    // .container {
+    //     max-width: 600px;
+    //     margin: auto;
+    // }
+
+    h2 {
+
+        font-size: 2rem;
         text-align: center;
         margin-top: 1rem;
-        margin-bottom: 1rem;
-        font-size: 1.5rem;
-        color: $secondary-color;
-    }
-
-    .project-box {
-        background: $primary-color;
-        flex: 1;
-        // padding: 3rem;
-
-        // needs to be fixed in margin for mobile and desktop view
-        // putiing margin zero works for allt the mobile view but
-        // it affects desktop view for some reason and does not let 
-        // margin between the box....bugsss
-        margin-bottom: 2rem;
-        border-radius: 10px;
-        box-shadow: 2px 2px 5px #d1d1d1;
-        font-size: 1.3rem;
+        font-weight: 550;
         
 
-        a {
+    }
+
+    .boxes {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 2rem;
+        
+        
+        
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        
+        
+        margin-bottom: 2rem;
+        // border: 1px solid $nav-color ;
+        width: 100%;
+        background: rgba($nav-color, 0.1);
+
+
+        
+         
+        
+        
+        
+
+        
+    }
+
+    img {
+        padding: 0 16px;
+    }
+
+    .box  {
+        padding: 0 16px;
+
+       
+
+    
+        
+        
+
+        h2{
+            color: $secondary-color;
+            text-align: left;
+            font-size: 1.5rem;
+        }
+        
+
+        p {
+            font-size: 15px;
+            margin-top: 5px
+        }
+        
+        .p-color {
+            color: grey;
+            text-align: right;
+            font-size: 12px;
+        }
+
+       a {
+            
+            text-decoration: none;
+            color: $secondary-color;   
+        }
+    }
+
+    
+}
+
+
+
+// view from min 768px and over
+
+@media only screen and (min-width: 768px){
+    #project {
+    
+        .container {
+            @include container;
+    
+        }
+    
+        h2 {
+            font-size: 3rem;
+            margin-top: 2rem;
+            font-weight: 400;
+        }
+    
+        .boxes {
             display: flex;
-            align-items: flex-end;
-            justify-content: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+            // width: 50%;
+    
+            margin-top: 2rem;
+        }
+    
+        .card {
+            
+            width: 50%;
+            // margin:;
+            margin-bottom: 3rem;
+            border-radius: 10px;
+
+            a {
+                &:hover {
+                    background: $primary-color;
+                    @include ease-out();
+
+                    
+    
+                }
+            }
+            
+            
+            
+        }
+         
+        .img {
+            padding: 25px 16px;
+        }
+        .box {
+            padding: 0 10px;
+
         }
         
     }
 
     
-    
-}
-
-
-@media only screen and (min-width: 768px) {
-
-    #projects.project-box  {
-
-         
-            background: $primary-color;
-            flex: 1;
-            // padding: 3rem;
-            margin: 2rem 2rem;
-            border-radius: 10px;
-            box-shadow: 2px 2px 5px #d1d1d1;
-            font-size: 1.3rem;
-
-
-
-        // margin-bottom: 3rem;
-        
-
     }
-} 
-
-
 
 
