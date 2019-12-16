@@ -80,6 +80,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  /* Darker background on mouse-over */
 }
 #about .container {
   max-width: 1100px;
@@ -138,6 +139,22 @@
   width: 5%;
   background-color: #808080;
 }
+#about p {
+  color: #333;
+  margin-top: 15px;
+}
+#about .btn {
+  margin-top: 5px;
+  background-color: #3693ff;
+  border: none;
+  color: white;
+  padding: 6px 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+#about .btn:hover {
+  background-color: #333;
+}
 
 @media only screen and (min-width: 769px) {
   #about .about-content {
@@ -168,6 +185,10 @@
   }
   #about .about-image {
     order: 2;
+  }
+  #about .btn {
+    padding: 12px 10px;
+    font-size: 20px;
   }
 }
 #blog h2 {
