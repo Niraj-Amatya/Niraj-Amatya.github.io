@@ -112,6 +112,9 @@
   width: 5%;
   background-color: #808080;
 }
+#about a {
+  text-decoration: none;
+}
 #about p {
   color: #333;
   margin-top: 15px;

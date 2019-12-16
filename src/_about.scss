@@ -87,6 +87,10 @@
 
 
     //   Download resume
+                // link for download
+            a {
+                text-decoration: none;
+            }
         
             p {
                 color: $nav-color;
