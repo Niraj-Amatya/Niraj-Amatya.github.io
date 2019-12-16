@@ -140,3 +140,44 @@
         }
     }
 }
+
+
+
+// view from min 768px and over
+
+@media only screen and (min-width: 768px){
+    #blog{
+    
+        .container {
+            @include container;
+    
+        }
+    
+        h2 {
+            font-size: 3rem;
+            margin-top: 2rem;
+            font-weight: 400;
+        }
+    
+        .boxes {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            // width: 50%;
+    
+            margin-top: 2rem;
+        }
+    
+        .card {
+            
+            width: 50%;
+            margin-bottom: 3rem;
+        }
+         
+        .img {
+            padding: 25px 16px;
+        }
+        
+    }
+}
+
