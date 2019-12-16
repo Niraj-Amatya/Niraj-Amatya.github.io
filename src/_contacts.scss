@@ -44,8 +44,16 @@
         padding: 2px;
         border-radius: 10px;
         text-align: center;
+
+        // to remove hyperlink from email address
+        a{
+            text-decoration: none;
+            color: $nav-color;
+        }
+        // ease out for hover effect
         @include ease-out;
 
+       
        
           &:hover {
 
@@ -53,6 +61,10 @@
             padding: 0.5rem 0;
             background: $secondary-color;
             color: white;
+            // to set the color of email address white during hover
+            a{
+                color: white;
+            }
 
             
 
