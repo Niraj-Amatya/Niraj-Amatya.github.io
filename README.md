@@ -219,7 +219,29 @@ Mobile
 
 
 
+### Target Audience
 
+- Potential employers and recruiting agencies
+- Educators and devs
+- Family, friends and relatives
+- Businesses
+
+### Technology Stack
+
+- Programming languages: HTML, CSS, SASS
+- Source control: git & GitHub
+- Planning & implementation: 1. project management (Trello), 2. mood board (Pinterest), 3. wireframe (Balsamiq)
+- Deployment platform: Github
+- Subresource Integrity hash: sha-512
+
+------
+
+### Future Improvements
+
+- Adding an collapsable menu bar when screen goes small
+- Designing personal logo for branding
+- More Images
+- Learn grid and create more meaningful design
 
 
 
