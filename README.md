@@ -133,23 +133,15 @@ For potential employer or visitors to link with me or know more about me, social
 The website simply has all pages link to each other via the navigation bar. So user can navigate to any pages from anywhere.  A sitemap for the website is presented below:
 
 
-
-
-
-
 ![Sitemap](doc/Screenshots/Site-map/Site-map.png)
 
 
 
+### Design brief
 
+Pinterest was used to get the design and color ideas.
 
-### Design Brief
-
-
-
-#### Pinterest 
-
-Pinterest was used for design and color ideas.
+![Pinterest](doc/Screenshots/Wireframe/Moodboard.png)
 
 
 
