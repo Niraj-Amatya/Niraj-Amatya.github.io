@@ -38,25 +38,13 @@ Sticky navigation bar is used so that even the pages go longer in the future as 
 
 
 
-
-
-
-
-
-
-
-
 ### 3. Skill bar
 
+Skill bar is used to show my skills in different programming languages. Color bar and percentage is given to give better picture of my skills in different languages. It gives potential employer my skill level; however this will change as I keep on updating my skills and will only improve over time.
 
 
 
 
-The site will include a navigation bar, which will include links to the other main pages of the website - home, projects, blog, and CV - on each page. The navigation bar both informs visitors of the other pages available on the website, and allows them a way to visit them.
-
-The navigation bar resides at the top of each page so the user will always know where they can go on each page to navigate around the website. A yellow hover effect is used on the text for each page to provide feedback to the user that the feature is interactable. The fact that yellow features are interactable will be used repeatedly on the website.
-
-A footer bar is included with links to professional accounts - LinkedIn and Github - as well as a link which will open an email message to my email address. This will allow visitors to view additional information such as my career prior to tech, personal projects, and allow them to get in contact with me if they wish.
 
 
 
