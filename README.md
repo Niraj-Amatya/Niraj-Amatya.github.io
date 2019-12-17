@@ -109,8 +109,8 @@ For potential employer or visitors to link with me or know more about me, social
   Three versions of the website have been produced and saved on different branches in Github. These versions are:
 
   - 'master' branch with the base version
-
-  - 'Navbar' created in the seperate branch and merged to master branch
+- 'Navbar' created in the seperate branch and merged to master branch
+  - 'background-color' in the seperate branch created with different color.
 
   ​	
 
