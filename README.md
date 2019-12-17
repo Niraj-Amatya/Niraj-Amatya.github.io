@@ -36,11 +36,18 @@ The navigation bar also inform visiotors about the all th pages they will be abl
 
 Sticky navigation bar is used so that even the pages go longer in the future as more contents are added, user will not get lost. And they will always find the way to return to their desired page through navigation bar as it stays where it is and does not get lost with scrolling. 
 
+![sticky-nav](doc/Screenshots/Website/Sticky-nav.png)
+
+
 
 
 ### 3. Skill bar
 
 Skill bar is used to show my skills in different programming languages. Color bar and percentage is given to give better picture of my skills in different languages. It gives potential employer my skill level; however this will change as I keep on updating my skills and will only improve over time.
+
+![skill-bar](doc/Screenshots/Website/skill-bar.png)
+
+
 
 
 
