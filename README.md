@@ -168,6 +168,64 @@ Wireframe for the website was created in the initial state of designing. Wirefra
 
 
 
+### Trello
+
+Trello was used to track the progress of the website and to distinguish the priority.
+
+
+[Trello](https://trello.com/b/00dnHOP4/protfolio-website)
+
+6/12/2019 -5pm
+![Trello1](doc/Screenshots/Trello/Screenshot-1.png)
+
+7/12/2019- 3pm
+![Trello2](doc/Screenshots/Trello/Screenshot-2.png)
+
+9/12/2019- 4.30pm
+![Trello3](doc/Screenshots/Trello/Screenshot3.png)
+
+12/12/2019- 5.12pm
+![Trello4](doc/Screenshots/Trello/Screenshot4.png)
+
+15/12/2019- 7pm
+![Trello5](doc/Screenshots/Trello/Screenshot5.png)
+
+17/12/2019- 11.30pm
+![Trello6](doc/Screenshots/Trello/Screenshot6.png)
+
+
+
+
+
+#### Website Screenshots
+
+Landing page Desktop 
+![Landing page](doc/Screenshots/Website/Landing-page.png)
+
+Mobile
+![Landing page-mobile](doc/Screenshots/Website/Landing-page-mobile.png)
+
+Ipad
+![Landing page-Ipad](doc/Screenshots/Website/Ipad-mobile.png)
+
+Project desktop
+![Project](doc/Screenshots/Website/Project-Desktop.png)
+
+Ipad
+![Project-Ipad](doc/Screenshots/Website/Project-ipad.png)
+
+Mobile
+![Project-Mobile](doc/Screenshots/Website/Project-mobile.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
