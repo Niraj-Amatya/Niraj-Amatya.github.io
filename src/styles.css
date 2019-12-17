@@ -187,13 +187,6 @@
 #blog img {
   padding: 0 16px;
 }
-#blog img :hover {
-  -ms-transform: scale(1.5);
-  /* IE 9 */
-  -webkit-transform: scale(1.5);
-  /* Safari 3-8 */
-  transform: scale(1.5);
-}
 #blog .box {
   padding: 0 16px;
 }
@@ -371,6 +364,10 @@
 }
 
 @media only screen and (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+
   #contact .container {
     max-width: 1100px;
     margin: auto;
@@ -413,7 +410,7 @@ body {
   line-height: 1.4;
   color: #333;
   overflow-x: hidden;
-  background: #f4f4f4;
+  background: #FADEE3;
 }
 
 .text-primary {
