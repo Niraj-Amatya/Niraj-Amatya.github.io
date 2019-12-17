@@ -1,3 +1,7 @@
+---
+
+---
+
 # Portfolio Website: Niraj Amatya
 
 ------
@@ -125,5 +129,11 @@ For potential employer or visitors to link with me or know more about me, social
   
 
 ## Sitemap
+
+The website simply has all pages link to each other via the navigation bar. A sitemap for the website is presented below.
+
+![](/Users/naisha/Desktop/protfolio-T1A3/doc/Screenshots/Site-map/Site-map.png)
+
+
 
 ### 
