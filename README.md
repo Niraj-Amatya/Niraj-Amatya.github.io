@@ -139,9 +139,23 @@ The website simply has all pages link to each other via the navigation bar. So u
 
 ### Design brief
 
+
+
+#### Pinterest
+
 Pinterest was used to get the design and color ideas.
 
 ![Pinterest](doc/Screenshots/Wireframe/Moodboard.png)
+
+
+
+#### Wireframe
+
+Wireframe for the website was created in the initial state of designing. Wireframes were designed keeping mobile view in mind.
+
+![Landing Page](doc/Screenshots/Wireframe/Landingpage-mobile.png)
+
+
 
 
 
