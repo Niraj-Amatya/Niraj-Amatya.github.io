@@ -154,6 +154,19 @@ Pinterest was used to get the design and color ideas.
 Wireframe for the website was created in the initial state of designing. Wireframes were designed keeping mobile view in mind.
 
 ![Landing Page](doc/Screenshots/Wireframe/Landingpage-mobile.png)
+![Landing page mobile](doc/Screenshots/Wireframe/LandingPage.png)
+
+![About me -mobile](doc/Screenshots/Wireframe/AboutMeMobile.png)
+
+![About me](doc/Screenshots/Wireframe/AboutMyself.png)
+![My projects](doc/Screenshots/Wireframe/MyProjects.png)
+![My projects mobile](doc/Screenshots/Wireframe/Myprojects-mobile.png)
+![contacts](doc/Screenshots/Wireframe/Contact.png)
+![contacts-mobile](doc/Screenshots/Wireframe/contact_2.png)
+
+
+
+
 
 
 
