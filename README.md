@@ -12,15 +12,15 @@ Github Address: https://github.com/Niraj-Amatya
 
 ------
 
-### Purpose
+## Purpose
 
 This is my protfolio website and the purpose of this website is to demonstrate my technical skills in designing and development. Desigining  a website takes time and it needs proper planning and documentation. This website will  show my project planning ability to perform any task. It demonstrates my capabilities to plan, design, implement and deploy a website.
 
-This will improve my exposure to others in the industry.  Potential employer will be able to know a little bit about myself through this website. More than that it is also a way to utilise my skills that I have learned so far (HTML, CSS, SASS and Git) by building this website.
+This will improve my exposure to others in the industry.  Potential employer will be able to know a little bit about myself through this website. More than that it is also a way to utilise my skills that I have learned so far (HTML, CSS, SASS and Git) by using them in this website.
 
 
 
-### Functationality and Features
+## Functationality and Features
 
 The website was built with simplicty and cleanness in mind, so that there is less distraction for the users. However, I have  used some features  to engage the user and make it easier to navigate.
 
@@ -70,4 +70,60 @@ In the contact page, when the the visitors will hover over the email address, mo
 ### 7. Social page icons
 
 For potential employer or visitors to link with me or know more about me, social page icons are used. The icons have hover effect and will change color when hovered. These icons will link to my actual social pages. The icons are used in Landing page and contact page.
+![hover](doc/Screenshots/Website/Hover-effect.png)
 
+
+
+### Other features
+
+- ### Responsive Design
+
+  As visitors to the site may use a different type of devices, the website has been designed to function well on screens of different sizes.
+
+  This has been accomplished by the use of CSS Flexbox, which allows control over the positioning of elements in response to a change in screen size. The website is designed to display correctly on a device as small as an iPhone 5/SE. A media break point was set to 'min-width: 768px' to achieve certain effects on browsers. For example pages like blogs and projects will have 2 rows layout in laptop and desktop version or bigger screen. However;  as the screen goes smaller it will change into single column and all the images and boxes will stack in top of each other. This will give better user experience to the user and flexibility to use the website in different screens. 
+
+  Another example of responsive design is in the Landing page, where the desktop view does not have my profile pic for the look of the page. However as you go below 768px, profile pic will emerge. This suites the look and feel of the page in different screen.
+
+  
+
+- ### Accessibility
+
+  The website is build by keeping visually-impaired users in mind. A proper meaningful description is used in the alt-text for any images on the page.  Color contrast between the elements is high by generally using two contrast colors and background color for the page is light . This will give the contrast between the important elements. 
+
+  
+
+- ### Semantic HTML
+
+  Semantic HTML element is used for better reading and understanding of the code. tags such as Header, Section, Nabvar, Footer, Main  have been used and comments have been added to the HTML document.
+
+  Also, the classes and id's used in CSS are named in such a way that it relates to the actual intention of the code. Such as box, container are used.
+
+  
+
+- ### Three version
+
+  Three versions of the website have been produced and saved on different branches in Github. These versions are:
+
+  - 'master' branch with the base version
+
+  - 'Navbar' created in the seperate branch and merged to master branch
+
+  ​	
+
+  The branch version can be visited by typing: branch checkout branch  name in the terminal.
+
+  For example to check the navbar in the branch type: branch checkout navbar.
+
+  
+
+- ### Subresource integrity
+
+  It is to  make sure that the files delivered to your web application do not have any unexpected malicious code by a third party.
+
+  Since subresource integrity is very important, it is achieved by creating a hash using sha512 and using it in our link tags in HTML. This is to make sure that page will only load with styles if it is identical to its state when the sha512 hash was created. Any changes made in the page, the HTML page will load without CSS styling.
+
+  
+
+## Sitemap
+
+### 
