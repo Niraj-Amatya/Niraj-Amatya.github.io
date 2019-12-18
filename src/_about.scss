@@ -3,28 +3,26 @@
 // styles for mobile start here
 
 
-
 #about {
-    padding: 0.3rem 0.2rem;
-    padding-bottom: 4rem;
+
+        padding: 0.3rem 0.2rem;
+        padding-bottom: 4rem;
     
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
 
-
+    // mixin is created in the mains.scss
     .container {
         @include container;
     }
-
+    // profile image
     .about-image{
         text-align: center;
         
     }
 
     .about-image img {
-        // display: flex;
-        // justify-content: center;
         
         // margin-left: auto;
         width: 40%;
@@ -32,11 +30,10 @@
         margin-top: 30px;
         // border: 2px solid;
         box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.2);
-        
-        
-        
+           
     }
-   
+
+    // heading styling
     h2 {
         font-size: 3rem;
         margin-top: 2rem;
@@ -48,11 +45,12 @@
     
     }
 
-    p.lead {
+    // styling about paragraph
+    p.about-paragraph {
         margin-bottom: 1rem;
         }
         
-    // my skills design
+    // my skills bar design
 
     h1 {
         margin-top: 4px;
@@ -65,14 +63,14 @@
         margin-bottom: 4px;
     }
 
+        // base color 
     .skills-container {
         width: 100%;
-        background-color: #ddd;
-        
-        
+        background-color: #ddd;  
 
       }
       
+    //   styling for skill percentage font
       .skills {
         text-align: right;
         padding-top: 5px;
@@ -80,6 +78,7 @@
         color: white;
       }
       
+    //   styling for all skill bar
       .html {width: 90%; background-color: #4CAF50;}
       .css {width: 30%; background-color: #2196F3;}
       .ruby {width: 65%; background-color: #f44336;}
@@ -98,7 +97,7 @@
             }
     
     
-    
+            // Button for download
             .btn {
                 margin-top: 5px;
                 background-color: $secondary-color;
@@ -111,13 +110,13 @@
               }
               
         
-              /* Darker background on mouse-over */
+              /* Darker background on mouse-hover */
               .btn:hover {
                 background-color: $nav-color;
               }
 
         
-    
+      
        
 }    
 
