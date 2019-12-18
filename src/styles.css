@@ -195,6 +195,9 @@
   text-align: left;
   font-size: 1.5rem;
 }
+#blog .box i {
+  padding: 6px;
+}
 #blog .box p {
   font-size: 15px;
   margin-top: 5px;
