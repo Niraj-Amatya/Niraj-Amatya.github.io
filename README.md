@@ -181,17 +181,21 @@ Trello was used to track the progress of the website and to distinguish the prio
 7/12/2019- 3pm
 ![Trello2](doc/Screenshots/Trello/Screenshot-2.png)
 
-9/12/2019- 4.30pm
+9/12/2019- 4:30pm
 ![Trello3](doc/Screenshots/Trello/Screenshot3.png)
 
-12/12/2019- 5.12pm
+12/12/2019- 5:12pm
 ![Trello4](doc/Screenshots/Trello/Screenshot4.png)
 
 15/12/2019- 7pm
 ![Trello5](doc/Screenshots/Trello/Screenshot5.png)
 
-17/12/2019- 11.30pm
+17/12/2019- 11:30pm
 ![Trello6](doc/Screenshots/Trello/Screenshot6.png)
+
+19/12/2019 7:45am
+![Trello7](doc/Screenshots/Trello/Screenshot7.png)
+
 
 
 
