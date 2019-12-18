@@ -311,8 +311,11 @@
     margin-inline-start: 1.5rem;
     margin-inline-end: 1.5rem;
   }
-  #project .img {
+  #project a .img {
     padding: 25px 16px;
+  }
+  #project a .img:hover {
+    transform: scale(1.5);
   }
   #project .box {
     padding: 0 10px;

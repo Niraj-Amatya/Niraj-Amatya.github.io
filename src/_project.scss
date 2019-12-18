@@ -130,8 +130,13 @@
             
         }
          
-        .img {
+        a .img {
             padding: 25px 16px;
+
+            &:hover {
+                transform: scale(1.5);
+            }
+
         }
         .box {
             padding: 0 10px;
