@@ -35,7 +35,7 @@
     box-sizing: border-box;
 }
 
-
+// body styling
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.4;
@@ -64,7 +64,7 @@ body {
     overflow: hidden;
 
 
-    // will only be visible in mobile view
+    // will only be visible in desktop view
     .mobile-image{
         justify-content: center;
         
@@ -157,13 +157,14 @@ body {
     .heading {
         margin-top: 24vh;
 
-        
+        // this will hide the profile pic in desktop view
         .mobile-image {
             
             display: none;
         }  
 
-        
+
+        // headings in desktop view
         h1, h2 {
             margin: 5px 2px;
             font-weight: 500;

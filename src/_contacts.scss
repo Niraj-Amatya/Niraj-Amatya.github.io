@@ -61,35 +61,35 @@
             padding: 0.5rem 0;
             background: $secondary-color;
             color: white;
+
+
             // to set the color of email address white during hover
-            a{
-                color: white;
-            }
+                a  {
+                 color: white;
+                 }
 
-            
-
-              
+    
           }
 
-          
+        //   icons styling
           .icons {
             // margin-top: 1rem;
             // justify-content: left;
             // align-items: ;
     
-            a{
-                // padding: 0.4rem;
-                color: $nav-color;
-                
-    
-                &:hover {
-                    color: $primary-color;
-                    @include ease-out();
-                    text-align: center;
+                a {
+                    // padding: 0.4rem;
+                    color: $nav-color;
                     
-    
+        
+                    &:hover {
+                        color: $primary-color;
+                        @include ease-out();
+                        text-align: center;
+                        
+        
+                    }
                 }
-            }
         }
         
     }
