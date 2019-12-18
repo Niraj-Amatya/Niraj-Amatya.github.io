@@ -1,23 +1,18 @@
 
 
 #blog {
-    // .container {
-    //     max-width: 600px;
-    //     margin: auto;
-    // }
-
+    
+    // heading styling
     h2 {
 
         font-size: 2rem;
         text-align: center;
         margin-top: 1rem;
         font-weight: 535;
-        
-
-        
 
     }
 
+    // all the boxes styling
     .boxes {
         display: flex;
         flex-wrap: wrap;
@@ -27,6 +22,7 @@
         
     }
 
+    // individual box/card styling
     .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         margin-bottom: 2rem;
@@ -36,14 +32,14 @@
 
             
     }
-
+    // image styling
     img {
         padding: 0 16px;
 
         
     }
 
-
+    // heading, paragraph and date styling
 
     .box  {
         padding: 0 16px;
@@ -55,6 +51,8 @@
             text-align: left;
             font-size: 1.5rem;
         }
+
+        // thumbs up icon
 
         i {
             padding: 6px;
@@ -76,7 +74,7 @@
 
 
 
-// view from min 768px and over
+// view from min 768px and over. Bigger screen styling
 
 @media only screen and (min-width: 768px){
     #blog{
@@ -85,13 +83,14 @@
             @include container;
     
         }
-    
+    // heading styling
         h2 {
             font-size: 3rem;
             margin-top: 2rem;
             font-weight: 400;
         }
-    
+
+        // all the boxes styling
         .boxes {
             display: flex;
             flex-wrap: wrap;
@@ -101,7 +100,8 @@
     
             margin-top: 2rem;
         }
-    
+
+        // individual box/card styling
         .card {
             
             width: 40%;
@@ -109,10 +109,13 @@
             margin-inline-start: 1.5rem;
             margin-inline-end: 1.5rem;
         }
-         
+
+        //  image styling
         .img {
             padding: 25px 16px;
         }
+
+
         .box {
             padding: 0 10px;
 
@@ -121,7 +124,7 @@
     }
 
     
-    }
+}
 
 
 

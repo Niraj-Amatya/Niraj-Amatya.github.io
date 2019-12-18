@@ -1,15 +1,18 @@
+
+// styling for mobile view
 #contact {
     padding-top: 4vh;
+
+    // heading1
     h1 {
         color: $secondary-color;
         font-size: 3rem;
         font-weight: 400;
         margin-bottom: 10px;
-        text-align: center;
-        
-        
-        
+        text-align: center;  
+
     }
+    // heading 2
     h2 {
         color: $nav-color;
         font-size: 20px;
@@ -20,7 +23,7 @@
    
     }
 
-
+    // for whole boxes in the contact list
     .contact-boxes {
         display: flex;
         flex-wrap: wrap;
@@ -28,14 +31,11 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
-        
-
-        
+    
     }
 
     
-
+    // for individual boxes
     .box {
         
         border: 4px solid $secondary-color;

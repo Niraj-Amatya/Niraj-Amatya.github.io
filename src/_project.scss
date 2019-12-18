@@ -1,9 +1,9 @@
 
 
-
+// project page styling for mobile view
 #project {
     
-
+            // heading styling
             h2 {
 
                 font-size: 2rem;
@@ -19,7 +19,7 @@
                 // margin: 20px;
             }
 
-
+            // styling for whole box in the page
             .boxes {
                 display: flex;
                 flex-wrap: wrap;
@@ -29,6 +29,7 @@
                     
             }
 
+            // individual box /card
             .card {
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
                 
@@ -41,7 +42,7 @@
                 
             }
 
-            
+            //styling for heading, paragraph inside the card 
          .box  {
                 padding: 0 16px;
 
@@ -62,6 +63,8 @@
                     text-align: right;
                     font-size: 12px;
                 }
+
+                // styling for links
 
                 a {
                         
