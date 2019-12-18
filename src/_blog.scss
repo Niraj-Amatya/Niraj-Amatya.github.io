@@ -93,14 +93,17 @@
             flex-wrap: wrap;
             flex-direction: row;
             // width: 50%;
+            justify-content: center;
     
             margin-top: 2rem;
         }
     
         .card {
             
-            width: 50%;
+            width: 40%;
             margin-bottom: 3rem;
+            margin-inline-start: 1.5rem;
+            margin-inline-end: 1.5rem;
         }
          
         .img {
