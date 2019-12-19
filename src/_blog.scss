@@ -18,6 +18,9 @@
         flex-wrap: wrap;
         flex-direction: column;
         margin-top: 2rem;
+        // padding: 20px;
+        // padding-bottom: 50px;
+
         
         
     }
@@ -50,6 +53,10 @@
             color: $secondary-color;
             text-align: left;
             font-size: 1.5rem;
+        }
+
+        a {
+            text-decoration: none;
         }
 
         // thumbs up icon

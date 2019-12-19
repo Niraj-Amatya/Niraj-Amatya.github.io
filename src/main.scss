@@ -14,6 +14,7 @@
 @mixin container {
     max-width: 1100px;
         margin: auto;
+       
         
 }
 
@@ -36,13 +37,16 @@
     box-sizing: border-box;
 }
 
+
 // body styling
-body {
+html, body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.4;
     color: #333;
     overflow-x: hidden;
     background: $background;
+    height: 100%;
+    margin: 0;
     
 
 }
@@ -144,22 +148,26 @@ body {
     background: $nav-color;
     color: white;
     text-align: center;
-    margin-top: 40vh;
+    margin-top: 50vh;
     padding: 1rem;
     border-top: 3px solid $secondary-color;
+    // height: 50px;
+    // margin-top: -50px;
+
     
 } 
 
 
 // Desktop view styling
 
-@media only screen and (min-width: 657px) {
+@media only screen and (min-width: 768px) {
     
     .heading {
         margin-top: 24vh;
 
         // this will hide the profile pic in desktop view
         .mobile-image {
+        
             
             display: none;
         }  
