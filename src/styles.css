@@ -415,6 +415,45 @@
     padding: 0.5rem;
   }
 }
+#blog-post {
+  padding: 0.3rem 0.2rem;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#blog-post .container {
+  max-width: 1100px;
+  margin: auto;
+}
+#blog-post .about-image {
+  text-align: center;
+}
+#blog-post .about-image img {
+  width: 40%;
+  border-radius: 5%;
+  margin-top: 30px;
+  box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.2);
+}
+#blog-post h2 {
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 535;
+  text-align: center;
+}
+#blog-post p.about-paragraph {
+  margin-bottom: 1rem;
+}
+#blog-post h1 {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: 20px;
+}
+#blog-post p {
+  margin-bottom: 4px;
+}
+
 * {
   margin: 0;
   padding: 0;

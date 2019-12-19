@@ -1,0 +1,63 @@
+#blog-post {
+    
+    padding: 0.3rem 0.2rem;
+    padding-bottom: 4rem;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+// mixin is created in the mains.scss
+.container {
+    @include container;
+}
+// profile image
+.about-image{
+    text-align: center;
+    
+}
+
+.about-image img {
+    
+    // margin-left: auto;
+    width: 40%;
+    border-radius: 5%;
+    margin-top: 30px;
+    // border: 2px solid;
+    box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.2);
+       
+}
+
+// heading styling
+h2 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 535;
+    text-align: center;
+    
+    
+
+}
+
+// styling about paragraph
+p.about-paragraph {
+    margin-bottom: 1rem;
+    }
+    
+// my skills bar design
+
+h1 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 20px;
+    
+}
+
+p {
+    margin-bottom: 4px;
+}
+
+
+}
