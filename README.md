@@ -10,7 +10,7 @@
 
 ### Links 
 
-Deployed Website: https://github.com/Niraj-Amatya/Niraj-Amatya.github.io
+Deployed Website:  https://niraj-amatya.github.io/
 
 Github Address: https://github.com/Niraj-Amatya
 
