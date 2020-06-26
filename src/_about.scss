@@ -1,201 +1,133 @@
-
-
 // styles for mobile start here
 
-
 #about {
+	padding: 0.3rem 0.2rem;
+	padding-bottom: 4rem;
 
-        padding: 0.3rem 0.2rem;
-        padding-bottom: 4rem;
-    
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 
-    // mixin is created in the mains.scss
-    .container {
-        @include container;
-    }
-    // profile image
-    .about-image{
-        text-align: center;
-        
-    }
+	// mixin is created in the mains.scss
+	.container {
+		@include container;
+	}
+	// profile image
+	.about-image {
+		text-align: center;
+	}
 
-    .about-image img {
+	.about-image img {
+		// margin-left: auto;
+		width: 40%;
+		border-radius: 5%;
+		margin-top: 30px;
+		// border: 2px solid;
+		box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.2);
+	}
 
-        
-        
-        // margin-left: auto;
-        width: 40%;
-        border-radius: 5%;
-        margin-top: 30px;
-        // border: 2px solid;
-        box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.2);
-           
-    }
+	// heading styling
+	h2 {
+		font-size: 3rem;
+		margin-top: 2rem;
+		margin-bottom: 1rem;
+		font-weight: 535;
+		text-align: center;
+	}
 
-    // heading styling
-    h2 {
-        font-size: 3rem;
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-        font-weight: 535;
-        text-align: center;
-        
-        
-    
-    }
+	// styling about paragraph
+	p.about-paragraph {
+		margin-bottom: 1rem;
+	}
 
-    // styling about paragraph
-    p.about-paragraph {
-        margin-bottom: 1rem;
-        }
-        
-    // my skills bar design
+	// my skills bar design
 
-    h1 {
-        margin-top: 4px;
-        margin-bottom: 4px;
-        font-size: 20px;
-        
-    }
+	h1 {
+		margin-top: 4px;
+		margin-bottom: 4px;
+		font-size: 20px;
+	}
 
-    p {
-        margin-bottom: 4px;
-    }
+	p {
+		margin-bottom: 4px;
+	}
 
-        // base color 
-    .skills-container {
-        width: 100%;
-        background-color: #ddd;  
+	//   Download resume
+	// link for download
+	a {
+		text-decoration: none;
+	}
 
-      }
-      
-    //   styling for skill percentage font
-      .skills {
-        text-align: right;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        color: white;
-      }
-      
-    //   styling for all skill bar
-      .html {width: 90%; background-color: #4CAF50;}
-      .css {width: 30%; background-color: #2196F3;}
-      .ruby {width: 65%; background-color: #f44336;}
-      .js {width: 5%; background-color: #808080;}
+	p {
+		color: $nav-color;
+		margin-top: 15px;
+	}
 
+	// Button for download
+	.btn {
+		margin-top: 5px;
+		background-color: $secondary-color;
+		border: none;
+		color: white;
+		padding: 6px 5px;
+		cursor: pointer;
+		font-size: 12px;
+	}
 
-    //   Download resume
-                // link for download
-            a {
-                text-decoration: none;
-            }
-        
-            p {
-                color: $nav-color;
-                margin-top: 15px;
-            }
-    
-    
-            // Button for download
-            .btn {
-                margin-top: 5px;
-                background-color: $secondary-color;
-                border: none;
-                color: white;
-                padding: 6px 5px;
-                cursor: pointer;
-                font-size: 12px;
-    
-              }
-              
-        
-              /* Darker background on mouse-hover */
-              .btn:hover {
-                background-color: $nav-color;
-              }
-
-        
-      
-       
-}    
-
-
-
-
-
+	/* Darker background on mouse-hover */
+	.btn:hover {
+		background-color: $nav-color;
+	}
+}
 
 // styles for mobile end here
 
 // style for  desktop
 @media only screen and (min-width: 769px) {
-    #about{
+	#about {
+		.about-content {
+			display: flex;
+		}
 
-        .about-content {
-            display: flex;
-        }
-    
-        .about-text,
-        .about-image {
-            flex: 1;
-            // margin-top: 10vh;
-        } 
-    
-    
-        .about-image img {
-            
-            width: 50%;
-            margin-top: 18vh;
-            margin-left: 10rem;
-            
-        }
+		.about-text,
+		.about-image {
+			flex: 1;
+			// margin-top: 10vh;
+		}
 
-        h2 {
-            font-size: 3rem;
-            margin-top: 2rem;
-            font-weight: 400;
-           
-            
-        }
-    
-        .about-text {
-            text-align: justify;
-    
-        }
-    
-        .about-text{
-            order: 1;
-    
-        }
-    
-         .text-paragraph p {
-             margin-top: 3rem;
-    
-         }
-    
-        .about-image {
-            order: 2;
-        }
+		.about-image img {
+			width: 50%;
+			margin-top: 18vh;
+			margin-left: 10rem;
+		}
 
-        
-         // Resume download styling
+		h2 {
+			font-size: 3rem;
+			margin-top: 2rem;
+			font-weight: 400;
+		}
 
-        
-        .btn {
-            padding: 12px 10px;
-            font-size: 20px;
-            
+		.about-text {
+			text-align: justify;
+		}
 
+		.about-text {
+			order: 1;
+		}
 
+		.text-paragraph p {
+			margin-top: 3rem;
+		}
 
-        }
-    }
-    
-   
-        
-    
-    }
-    
+		.about-image {
+			order: 2;
+		}
+
+		// Resume download styling
+
+		.btn {
+			padding: 12px 10px;
+			font-size: 20px;
+		}
+	}
+}
